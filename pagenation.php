@@ -1,11 +1,11 @@
  
 /**
  * 自定义分页方法
- * @param unknown_type $url     #分页url，页码采用'%s'表示，例如：http://test.jingzheng.com/tags/xxx/%s/
+ * @param unknown_type $url             #分页url，页码采用'%s'表示，例如：http://test.jingzheng.com/tags/xxx/%s/
  * @param unknown_type $cur_page        #当前页码
  * @param unknown_type $page_fix        #当前页码前后需要显示多少个页码
  * @param intval $total_rows            #数据总数
- * @param intval $pagesize      #每页显示多少数据
+ * @param intval $pagesize              #每页显示多少数据
  * @param string $cur_page_calss        #当前页css样式名称
  */
 public function pagenation($url, $cur_page=1, $page_fix=2, $total_rows=0, $pagesize=10, $cur_page_calss='disable'){
